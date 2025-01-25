@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 4%;
+    margin-top: 10%;
+}
+
+.main-logo{
+    width: 10%;
+}
+
+.herosection a{
+    background-color: #a6611c;
+}
+
+.herosection a:hover{
+    background-color: #844e18;
+    transition: 0.2s;
+    transform: scale(1.1);
+}
