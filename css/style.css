@@ -4,6 +4,32 @@
     box-sizing: border-box;
 }
 
+/* USER DEFINE CLASSES */
+
+.gradient-text:hover{
+    background-image: linear-gradient(160deg,  #a6611c 50%, white 5%);
+    background-clip: text;
+    color: transparent;
+}
+
+.brown{
+    color: #a6611c;
+}
+
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #a6611c;
+}
+
+.stroke{
+    -webkit-text-stroke: 1px grey;
+    color: transparent;
+    font-size: 160px;
+}
+
+/* USER DEFINE CLASSES */
+
 .navbar{
     width: 4%;
     margin-top: 10%;
