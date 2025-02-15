@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    /* outline: 1px solid red; */
 }
 
 /* USER DEFINE CLASSES */
@@ -28,6 +29,12 @@
     font-size: 160px;
 }
 
+.stroke-2{
+    -webkit-text-stroke: 1px grey;
+    color: transparent;
+    font-size: 70px;
+}
+
 /* USER DEFINE CLASSES */
 
 .navbar{
@@ -47,4 +54,11 @@
     background-color: #844e18;
     transition: 0.2s;
     transform: scale(1.1);
+}
+
+/* S P E C I F I C A T I O N - S E C T I O N */
+
+.spec-img img{
+    height: 650px;
+    object-fit: cover;
 }

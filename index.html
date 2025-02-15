@@ -12,10 +12,10 @@
     <header>
       <nav id="navbar" class="navbar navbar-expand-lg bg-black fixed-top ms-auto rounded-start-4">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseContent">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarCollapseContent">
             <ul class="navbar-nav nav-pills flex-column gap-3 w-100 text-center mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active text-white" href="#homePage">
@@ -66,17 +66,17 @@
     <main>
       <article id="onepage" data-bs-spy="scroll" data-bs-target="#navbar">
         <section class="herosection" id="homePage">
-          <div class="card border-0">
+          <div class="card border-0 bg-black rounded-0">
             <div class="hero-img">
-              <img src="images/herosection.png" class="img-fluid w-100 vh-100 object-fit-cover" alt="banner-img" />
+              <img src="images/herosection.png" class="img-fluid w-100 vh-100 object-fit-cover opacity-50" alt="banner-img" />
             </div>
             <div class="m-0 p-0">
               <div class="card-img-overlay">
-                <img src="images/main-logo.png" class="img-fluid main-logo" alt="main-logo" />
+                <img src="images/main-logo.png" class="img-fluid main-logo opacity-75" alt="main-logo" />
                 <div class="container">
                   <div class="hero-section-item">
                     <div class="mt-5">
-                      <h1 class="fw-bold display-4 w-50 brown">HELPING YOU AND YOUR HOUSE BECOME BETTER ACQUAINTED</h1>
+                      <h1 class="display-4 w-50 text-white mb-3">HELPING YOU AND YOUR HOUSE BECOME BETTER ACQUAINTED</h1>
                       <a href="#" class="text-decoration-none text-white rounded px-3 py-2">BOOK A SITE VISIT</a>
                     </div>
                     <button class="bg-transparent border-0 rounded-circle text-white fs-1 mt-5">
@@ -99,7 +99,6 @@
                     </div>
 
                     <!-- video modal -->
-
                   </div>
                 </div>
               </div>
@@ -107,10 +106,286 @@
           </div>
         </section>
 
-        <section id="specification" class="py-5">
-         <div class="specification-title position-relative">
-           <h2 class="fw-bold stroke opacity-25">SPECIFICATIONS</h2>
-           <h2 class="position-absolute top-50 start-50 translate-middle-x display-4 fw-semibold">SPECIFICATIONS</h2>
+        <section id="specification" class="py-5  specification-container">
+          <div class="specification-title position-relative">
+            <h2 class="fw-bold stroke opacity-25">SPECIFICATIONS</h2>
+            <h2 class="position-absolute top-50 start-50 translate-middle-x display-4 fw-semibold">SPECIFICATIONS</h2>
+          </div>
+
+         <div class="container py-5">
+           <div class="row g-5">
+            
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="specification-image position-sticky top-0 py-5">
+                <div class="spec-img">
+                  <img src="images/spec-img-1.jpg" class="img-fluid rounded-4" alt="">
+                </div>
+                <div class="spec-img">
+                  <img src="images/spec-img-2.jpg" class="img-fluid rounded-4 w-100" alt="">
+                </div>
+                <div class="spec-img">
+                  <img src="images/spec-img-3.jpg" class="img-fluid rounded-4 w-100" alt="">
+                </div>
+                <div class="spec-img">
+                  <img src="images/spec-img-4.jpg" class="img-fluid rounded-4 w-100" alt="">
+                </div>
+                <div class="spec-img">
+                  <img src="images/spec-img-5.webp" class="img-fluid rounded-4 w-100" alt="">
+                </div>
+                <div class="spec-img">
+                  <img src="images/spec-img-6.jpg" class="img-fluid rounded-4 w-100" alt="">
+                </div>
+                <div class="spec-img">
+                  <img src="images/spec-img-7.jpg" class="img-fluid rounded-4 w-100" alt="">
+                </div>
+                <div class="spec-img">
+                  <img src="images/spec-img-8.png" class="img-fluid rounded-4 w-100" alt="">
+                </div>
+                <div class="spec-img">
+                  <img src="images/spec-img-9.jpg" class="img-fluid rounded-4 w-100" alt="">
+                </div>
+                <div class="spec-img">
+                  <img src="images/spec-img-10.jpg" class="img-fluid rounded-4 w-100" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="specification-content">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed py-5"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne">
+                        <p class="fs-1 fw-semibold">
+                          <span class="me-5 fw-bold stroke-2">01</span>STRUCTURE
+                        </p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                        first item's accordion body.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed py-5"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo">
+                         <p class="fs-1 fw-semibold">
+                          <span class="me-5 fw-bold stroke-2">02</span>EXTERIOR FINISH
+                        </p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                        second item's accordion body. Let's imagine this being filled with some actual content.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed py-5"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree">
+                         <p class="fs-1 fw-semibold">
+                          <span class="me-5 fw-bold stroke-2">03</span>DOOR
+                        </p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                        third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make
+                        it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed py-5"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseFour">
+                         <p class="fs-1 fw-semibold">
+                          <span class="me-5 fw-bold stroke-2">04</span>FLOOR
+                        </p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                        third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make
+                        it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed py-5"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseFive">
+                         <p class="fs-1 fw-semibold">
+                          <span class="me-5 fw-bold stroke-2">05</span>KICTHEN
+                        </p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                        third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make
+                        it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed py-5"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsesix"
+                        aria-expanded="false"
+                        aria-controls="flush-collapsesix">
+                         <p class="fs-1 fw-semibold">
+                          <span class="me-5 fw-bold stroke-2">06</span>ELECTRIFICATION
+                        </p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                        third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make
+                        it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed py-5"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSeven"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseSeven">
+                         <p class="fs-1 fw-semibold">
+                          <span class="me-5 fw-bold stroke-2">07</span>INTERIOR FINISH
+                        </p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                        third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make
+                        it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed py-5"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseEight"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseEight">
+                         <p class="fs-1 fw-semibold">
+                          <span class="me-5 fw-bold stroke-2">08</span>BATHROOMS
+                        </p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                        third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make
+                        it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed py-5"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseNine"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseNine">
+                         <p class="fs-1 fw-semibold">
+                          <span class="me-5 fw-bold stroke-2">09</span>WATER SUPPLY
+                        </p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                        third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make
+                        it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed py-5"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTen"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTen">
+                         <p class="fs-1 fw-semibold">
+                          <span class="me-5 fw-bold stroke-2">10</span>WINDOW
+                        </p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                        third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make
+                        it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+                      </div>
+                    </div>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+          </div>
          </div>
         </section>
       </article>
