@@ -53,7 +53,7 @@
 .herosection a:hover{
     background-color: #844e18;
     transition: 0.2s;
-    transform: scale(1.1);
+    
 }
 
 /* S P E C I F I C A T I O N - S E C T I O N */
@@ -61,4 +61,16 @@
 .spec-img img{
     height: 650px;
     object-fit: cover;
+}
+
+/* A B O U T - U S - S E C T I O N */
+
+.aboutUs a{
+    background-color: #a6611c;
+    color: white;
+}
+
+.aboutUs a:hover{
+    background-color: #844e18;
+    transition: 0.2s;
 }
